@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+   
+<!--    <div id="output"></div>-->
+    <h1 id="output"></h1>
+   
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+    
+     <script>
+        document.write("<h1>Internal Script</h1>")
+    
+        var x = 100;
+        var y = "Variance Y"
+        var z = true;
+        
+        var x2 = 50
+        var y2 = "Banana"
+        
+//        document.write(x);
+//        document.write(y);
+//        document.write(z);
+        
+        console.log(x);
+        console.log(y);
+        console.log(z);
+        
+        console.log(x+x2);
+        console.log(y+y2);
+        
+//        document.getElementById("output").textContent = "<i>QQQQQ</i>";
+        document.getElementById("output").innerHTML = "<i>QQQQQ</i>";
+        
+         var test = document.getElementsByClassName("box")[0]
+         console.log(test);
+         
+    </script>
+    
+</body>
+</html>
